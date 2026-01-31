@@ -12,9 +12,10 @@
     <meta name="apple-mobile-web-app-title" content="BoxTimer">
     <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/4843/4843992.png">
     
-    <!-- Standard CSS -->
+    <!-- Tailwind and Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.cdnfonts.com/css/digital-7-mono" rel="stylesheet">
+    
     <style>
       :root {
         --gym-red: #ff0000;
@@ -66,19 +67,17 @@
   <script type="importmap">
 {
   "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
     "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
     "react/": "https://esm.sh/react@^19.2.4/",
     "vite": "https://esm.sh/vite@^7.3.1",
-    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "react": "https://esm.sh/react@^19.2.4"
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
     <script type="module" src="./index.tsx"></script>
-  <script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
