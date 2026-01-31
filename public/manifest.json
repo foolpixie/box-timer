@@ -9,8 +9,8 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/box-timer/",
-  "scope": "/box-timer/",
+  "start_url": ".",
+  "scope": "./",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000",
