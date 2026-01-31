@@ -1,0 +1,5 @@
+{
+  "name": "BoxTimer",
+  "description": "A high-performance CrossFit timer featuring AMRAP, EMOM, Tabata, and For Time modes with a classic red digital display and audio cues.",
+  "requestFramePermissions": []
+}

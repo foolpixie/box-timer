@@ -1,0 +1,18 @@
+{
+  "short_name": "BoxTimer",
+  "name": "BoxTimer CrossFit Clock",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4843/4843992.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/box-timer/",
+  "scope": "/box-timer/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "any"
+}
